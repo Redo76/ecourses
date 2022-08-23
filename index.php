@@ -1,7 +1,7 @@
 <?php get_header();?>
 
     <!-- Carousel Start -->
-    <div class="container-fluid p-0 pb-5 mb-5">
+    <div class="container-fluid p-0 pb-5 mb-5 bg-secondary">
         <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#header-carousel" data-slide-to="0" class="active"></li>
@@ -10,7 +10,7 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active" style="min-height: 300px;">
-                    <img class="position-relative w-100" src="img/carousel-1.jpg" style="min-height: 300px; object-fit: cover;">
+                    <img class="position-relative w-100" src="<?php bloginfo("template_directory"); ?>/img/carousel-1.jpg" style="min-height: 300px; object-fit: cover;">
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div class="p-5" style="width: 100%; max-width: 900px;">
                             <h5 class="text-white text-uppercase mb-md-3">Best Online Courses</h5>
@@ -20,7 +20,7 @@
                     </div>
                 </div>
                 <div class="carousel-item" style="min-height: 300px;">
-                    <img class="position-relative w-100" src="img/carousel-2.jpg" style="min-height: 300px; object-fit: cover;">
+                    <img class="position-relative w-100" src="<?php bloginfo("template_directory"); ?>/img/carousel-2.jpg" style="min-height: 300px; object-fit: cover;">
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div class="p-5" style="width: 100%; max-width: 900px;">
                             <h5 class="text-white text-uppercase mb-md-3">Best Online Courses</h5>
@@ -30,7 +30,7 @@
                     </div>
                 </div>
                 <div class="carousel-item" style="min-height: 300px;">
-                    <img class="position-relative w-100" src="img/carousel-3.jpg" style="min-height: 300px; object-fit: cover;">
+                    <img class="position-relative w-100" src="<?php bloginfo("template_directory"); ?>/img/carousel-3.jpg" style="min-height: 300px; object-fit: cover;">
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div class="p-5" style="width: 100%; max-width: 900px;">
                             <h5 class="text-white text-uppercase mb-md-3">Best Online Courses</h5>
@@ -54,8 +54,8 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="./img/cat" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
+                        <img class="img-fluid" src="<?php bloginfo("template_directory"); ?>./img/cat-1.jpg" alt="">
+                        <a class="cat-overlay text-white text-decoration-none" href="http://wordpress/category/web-design/">
                             <h4 class="text-white font-weight-medium">Web Design</h4>
                             <span>100 Courses</span>
                         </a>
@@ -63,8 +63,8 @@
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/cat-2.jpg" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
+                        <img class="img-fluid" src="<?php bloginfo("template_directory"); ?>/img/cat-2.jpg" alt="">
+                        <a class="cat-overlay text-white text-decoration-none" href="http://wordpress/category/development/">
                             <h4 class="text-white font-weight-medium">Development</h4>
                             <span>100 Courses</span>
                         </a>
@@ -72,8 +72,8 @@
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/cat-3.jpg" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
+                        <img class="img-fluid" src="<?php bloginfo("template_directory"); ?>/img/cat-3.jpg" alt="">
+                        <a class="cat-overlay text-white text-decoration-none" href="http://wordpress/category/game-design/">
                             <h4 class="text-white font-weight-medium">Game Design</h4>
                             <span>100 Courses</span>
                         </a>
@@ -81,8 +81,8 @@
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/cat-4.jpg" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
+                        <img class="img-fluid" src="<?php bloginfo("template_directory"); ?>/img/cat-4.jpg" alt="">
+                        <a class="cat-overlay text-white text-decoration-none" href="http://wordpress/category/apps-design/">
                             <h4 class="text-white font-weight-medium">Apps Design</h4>
                             <span>100 Courses</span>
                         </a>
@@ -90,8 +90,8 @@
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/cat-5.jpg" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
+                        <img class="img-fluid" src="<?php bloginfo("template_directory"); ?>/img/cat-5.jpg" alt="">
+                        <a class="cat-overlay text-white text-decoration-none" href="http://wordpress/category/marketing/">
                             <h4 class="text-white font-weight-medium">Marketing</h4>
                             <span>100 Courses</span>
                         </a>
@@ -99,8 +99,8 @@
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/cat-6.jpg" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
+                        <img class="img-fluid" src="<?php bloginfo("template_directory"); ?>/img/cat-6.jpg" alt="">
+                        <a class="cat-overlay text-white text-decoration-none" href="http://wordpress/category/research/">
                             <h4 class="text-white font-weight-medium">Research</h4>
                             <span>100 Courses</span>
                         </a>
@@ -108,8 +108,8 @@
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/cat-7.jpg" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
+                        <img class="img-fluid" src="<?php bloginfo("template_directory"); ?>/img/cat-7.jpg" alt="">
+                        <a class="cat-overlay text-white text-decoration-none" href="http://wordpress/category/content-writing/">
                             <h4 class="text-white font-weight-medium">Content Writing</h4>
                             <span>100 Courses</span>
                         </a>
@@ -117,8 +117,8 @@
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/cat-8.jpg" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
+                        <img class="img-fluid" src="<?php bloginfo("template_directory"); ?>/img/cat-8.jpg" alt="">
+                        <a class="cat-overlay text-white text-decoration-none" href="http://wordpress/category/seo/">
                             <h4 class="text-white font-weight-medium">SEO</h4>
                             <span>100 Courses</span>
                         </a>
@@ -131,42 +131,49 @@
     
     <!-- Courses Start -->
     
-    
     <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="text-center mb-5">
                 <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Articles</h5>
                 <h1>Nos articles récents</h1>
             </div>
+                    <?php 
+                        $args = array(
+                            'numberposts' => '6',
+                        );
+
+                        $posts = get_posts($args);
+                        var_dump($posts);
+                    ?>
                     <?php if(have_posts()) : ?>
                         <div class="row" id="loop">
                             <?php while(have_posts()) : the_post(); ?>
-                            <article class="col-lg-4 col-md-6 mb-4">
-                                <div class="bg-secondary p-4 h-100 d-flex flex-column">
-                                    <div class="d-flex justify-content-between mb-3">
-                                        <small class="m-0"><i class="fa fa-users text-primary mr-2"></i><?php the_category(', '); ?></small>
-                                        <small class="m-0"><i class="far fa-clock text-primary mr-2"></i><?php the_time('d/m/Y'); ?></small>
-                                    </div>
-                                    <h4><?php the_title(); ?></h4>
-                                    <?php if(is_singular()) : ?>
-                                        <?php the_content(); ?>
-                                    <?php else : ?>
-                                        <p class="h-100"><?php echo(get_the_excerpt()); ?></p>
-                                        <div class="border-top mt-4 pt-4">
-                                            <div class="d-flex justify-content-between">
-                                                <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
-                                                <a href="<?php the_permalink(); ?>">Lire la suite</a>
-                                            </div>
+                                <article class="col-lg-4 col-md-6 mb-4">
+                                    <div class="bg-secondary p-4 h-100 d-flex flex-column">
+                                        <div class="d-flex justify-content-between mb-3">
+                                            <small class="m-0"><i class="fa fa-users text-primary mr-2"></i><?php the_category(', '); ?></small>
+                                            <small class="m-0"><?php the_time('d/m/Y'); ?></small>
                                         </div>
-                                        <?php endif; ?>
-                                </div>
-                            </article>
+                                        <h4><?php the_title(); ?></h4>
+                                        <?php if(is_singular()) : ?>
+                                            <?php the_content(); ?>
+                                        <?php else : ?>
+                                            <p class="h-100"><?php echo(get_the_excerpt()); ?></p>
+                                            <div class="border-top mt-4 pt-4">
+                                                <div class="d-flex justify-content-between">
+                                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
+                                                    <a href="<?php the_permalink(); ?>">Lire la suite</a>
+                                                </div>
+                                            </div>
+                                            <?php endif; ?>
+                                    </div>
+                                </article>
                             <?php endwhile; ?>
                         </div>
                         <div id="pagination">
                             <?php echo paginate_links(); ?>
                         </div>
-                        <?php else : ?>
+                    <?php else : ?>
                         <p>Aucun résultat</p>
                     <?php endif; ?>
         </div>
@@ -230,7 +237,7 @@
         <div class="container py-5">
             <div class="row align-items-center">
                 <div class="col-lg-5">
-                    <img class="img-fluid rounded mb-4 mb-lg-0" src="img/about.jpg" alt="">
+                    <img class="img-fluid rounded mb-4 mb-lg-0" src="<?php bloginfo("template_directory"); ?>/img/about.jpg" alt="">
                 </div>
                 <div class="col-lg-7">
                     <div class="text-left mb-4">

@@ -4,9 +4,9 @@
             <div class="col-lg-7 col-md-12">
                 <div class="row">
                     <div class="col-md-6 mb-5">
-                        <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Get In Touch</h5>
-                        <p><i class="fa fa-map-marker-alt mr-2"></i>123 Street, New York, USA</p>
-                        <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
+                        <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Contact</h5>
+                        <p><i class="fa fa-map-marker-alt mr-2"></i>123 Lorem, Lipsum, ABC</p>
+                        <p><i class="fa fa-phone-alt mr-2"></i>02 45 67 89 10</p>
                         <p><i class="fa fa-envelope mr-2"></i>info@example.com</p>
                         <div class="d-flex justify-content-start mt-4">
                             <a class="btn btn-outline-light btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
@@ -67,11 +67,11 @@
     </div>
     <!-- Footer End -->
 
-    <?php wp_footer(); ?>
-
+    
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
-
+    
+    <?php wp_footer(); ?>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

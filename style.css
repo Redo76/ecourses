@@ -4115,7 +4115,7 @@ input[type="button"].btn-block {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; 
   padding: 0.5rem 1rem;
 }
 
@@ -4192,6 +4192,20 @@ input[type="button"].btn-block {
   content: "";
   background: no-repeat center center;
   background-size: 100% 100%;
+}
+
+.abc{
+  color: #FF6600 !important; 
+  border: #FF6600 1px solid;
+  border-radius: 10px;
+}
+
+.abc:hover{
+  background-color: rgba(255, 255, 255, 0.041);
+}
+
+.bcd{
+  letter-spacing: 5px;
 }
 
 @media (max-width: 575.98px) {

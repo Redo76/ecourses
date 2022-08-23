@@ -1,34 +1,48 @@
 <?php get_header();?>
-    <div class="container-fluid py-5">
-        <div class="container pt-5 pb-3">
-            <?php if(have_posts()) : ?>
-                <div id="loop">
-                    <?php while(have_posts()) : the_post(); ?>
-                    <article class="container py-5">
-                            <h1><?php the_title(); ?></h1>
-                            <p>Publié le <?php the_time('d/m/Y'); ?><?php if(!is_page()) : ?> dans <?php the_category(', '); ?><?php endif; ?></p>
-                            <?php if(is_singular()) : ?>
-                                <?php the_content(); ?>
-                            <?php else : ?>
-                                <?php the_excerpt(); ?>
-                                <a href="<?php the_permalink(); ?>">Lire la suite</a>
-                                <?php endif; ?>
-                            </article>
-                    <?php endwhile; ?>
-                </div>
-                <div id="pagination">
-                    <?php echo paginate_links(); ?>
-                </div>
-                <?php else : ?>
-                    <p>Aucun résultat</p>
-                <?php endif; ?>
-        </div>
-    </div>
-
-    <!-- Category Start -->
-    <div class="container-fluid py-5">
-        <div class="container pt-5 pb-3">
-            <div class="text-center mb-5">
+<div class="container-fluid py-5">
+    <div class="container pt-5 pb-3">
+    <?php if(have_posts()) : ?>
+            <div id="loop">
+                <?php while(have_posts()) : the_post(); ?>
+                <article class="container py-5">
+                    <h1><?php the_title(); ?></h1>
+                    <?php if(is_singular()) : ?>
+                        <?php the_content(); ?>
+                        </div>
+                        <?php else : ?>
+                            <p>Aucun résultat</p>
+                            <?php endif; ?>
+                        </div>
+                    </div>
+                </article>
+                <?php endwhile; ?>
+            </div>
+        <?php endif; ?>
+                    
+                    <!-- About Start -->
+                    <div class="container-fluid py-5">
+                        <div class="container py-5">
+                            <div class="row align-items-center">
+                                <div class="col-lg-5">
+                                    <img class="img-fluid rounded mb-4 mb-lg-0" src="img/about.jpg" alt="">
+                                </div>
+                                <div class="col-lg-7">
+                                    <div class="text-left mb-4">
+                                        <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">About Us</h5>
+                                        <h1>Innovative Way To Learn</h1>
+                                    </div>
+                                    <p>Aliquyam accusam clita nonumy ipsum sit sea clita ipsum clita, ipsum dolores amet voluptua duo dolores et sit ipsum rebum, sadipscing et erat eirmod diam kasd labore clita est. Diam sanctus gubergren sit rebum clita amet, sea est sea vero sed et. Sadipscing labore tempor at sit dolor clita consetetur diam. Diam ut diam tempor no et, lorem dolore invidunt no nonumy stet ea labore, dolor justo et sit gubergren diam sed sed no ipsum. Sit tempor ut nonumy elitr dolores justo aliquyam ipsum stet</p>
+                                    <a href="" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- About End -->
+                    
+                    <!-- Category Start -->
+                    <div class="container-fluid py-5">
+                        <div class="container pt-5 pb-3">
+                            <div class="text-center mb-5">
                 <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Subjects</h5>
                 <h1>Explore Top Subjects</h1>
             </div>
@@ -149,25 +163,6 @@
     </div>
     <!-- Courses End -->
     
-    <!-- About Start -->
-    <div class="container-fluid py-5">
-        <div class="container py-5">
-            <div class="row align-items-center">
-                <div class="col-lg-5">
-                    <img class="img-fluid rounded mb-4 mb-lg-0" src="img/about.jpg" alt="">
-                </div>
-                <div class="col-lg-7">
-                    <div class="text-left mb-4">
-                        <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">About Us</h5>
-                        <h1>Innovative Way To Learn</h1>
-                    </div>
-                    <p>Aliquyam accusam clita nonumy ipsum sit sea clita ipsum clita, ipsum dolores amet voluptua duo dolores et sit ipsum rebum, sadipscing et erat eirmod diam kasd labore clita est. Diam sanctus gubergren sit rebum clita amet, sea est sea vero sed et. Sadipscing labore tempor at sit dolor clita consetetur diam. Diam ut diam tempor no et, lorem dolore invidunt no nonumy stet ea labore, dolor justo et sit gubergren diam sed sed no ipsum. Sit tempor ut nonumy elitr dolores justo aliquyam ipsum stet</p>
-                    <a href="" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Learn More</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- About End -->
 
     <!-- Category Start -->
 

@@ -60,3 +60,4 @@ function register_my_sidebars(){
     );
 }
 add_action('widgets_init', 'register_my_sidebars');
+
